@@ -1,3 +1,55 @@
+body {
+    background-color: rgb(88, 83, 83); 
+    margin: 0px;
+    padding: 0;
+}
+
 header {
-    background-color: rgb(241, 214, 241);
+    background-color: rgb(77, 43, 77);
+    color: azure;
+    text-align: end;
+}
+
+h1 {
+    margin-top: 0px;
+    text-align: left;
+}
+
+
+a {
+    color: azure;
+    font-size:x-large;
+}
+
+.center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(77, 43, 77);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer .fbmedia-link {
+    height: 50px;
+}
+footer .instamedia-link {
+    height: 50px;
 }
