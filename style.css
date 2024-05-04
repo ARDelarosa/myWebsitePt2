@@ -1,50 +1,65 @@
 body {
-    background-color: rgb(88, 83, 83); 
+    background-color: rgb(70, 67, 67); 
     margin: 0px;
     padding: 0;
 }
 
-header {
-    background-color: rgb(77, 43, 77);
-    color: azure;
-    text-align: end;
-}
-
 h1 {
     margin-top: 0px;
-    text-align: left;
+    text-align: center;
+    font-size: 40px;
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(77, 43, 77);
+    padding: 20px;
+    color: azure;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 a {
     color: azure;
     font-size:x-large;
+    margin: 0 5px;
 }
 
 .center {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 47%;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+
 h2 {
+    font-family:'Times New Roman', Times, serif;
     text-align: center;
+    color: azure;
+    font-size: 25px;
 }
 
 p {
+    font-family:'Courier New', Courier, monospace;
     text-align: center;
+    color: azure;
+    font-size: large;
 }
 
 footer {
     background-color: rgb(77, 43, 77);
-    padding: 20px;
+    padding-top: 20px;
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    box-shadow: 0 0 12px 1px black;
 }
 
 footer .fbmedia-link {
