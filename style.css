@@ -20,8 +20,22 @@ header {
     padding-bottom: 10px;
 }
 
+.header-align {
+    text-align: left;
+}
+
+.text-border:nth-of-type(2n + 1) > img {
+    float: right;
+    margin: 0 10px 10px 10px;
+}
+
+.hiking {
+    width: 100px;
+    height: 100px;
+}
+
 a {
-    color: azure;
+    color: rgb(206, 207, 241);
     font-size:x-large;
     margin: 0 5px;
 }
@@ -34,8 +48,6 @@ a {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-
 h2 {
     font-family:'Times New Roman', Times, serif;
     text-align: center;
@@ -43,11 +55,18 @@ h2 {
     font-size: 25px;
 }
 
-p {
+.home-par {
     font-family:'Courier New', Courier, monospace;
     text-align: center;
     color: azure;
-    font-size: large;
+    font-size: medium;  
+}
+p {
+    font-family:'Courier New', Courier, monospace;
+    color: azure;
+    font-size: medium;
+    text-align: left;
+    display: block;
 }
 
 footer {
