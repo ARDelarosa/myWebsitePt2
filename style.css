@@ -29,9 +29,12 @@ header {
     margin: 0 10px 10px 10px;
 }
 
+.gaming {
+    width: 250px;
+}
+
 .hiking {
-    width: 100px;
-    height: 100px;
+    width: 250px;
 }
 
 a {
