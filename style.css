@@ -36,7 +36,7 @@ h1 {
    margin-left: 30px;
    margin-right: 20px;
    margin-top: 10px;
-   padding: 10px;
+   padding: 20px;
    display: inline-block;
    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
    text-align: center;
@@ -51,7 +51,7 @@ h1 {
     height: 200px;
     margin-left: 1em;
     margin-bottom: 1em;
-    float: right;
+    float:none;
     box-shadow: 0 3px 6px -2px #ccc;
 }
 
