@@ -15,6 +15,46 @@ h1 {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+.project-header {
+    font-size: 30px;
+    padding: 0%;
+    background-color: transparent;
+    box-shadow: none;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+.project h3 {
+    font-size: x-large;
+    color: rgb(31, 5, 31);
+    text-decoration-line: underline;
+}
+
+.project {
+   background-color: aliceblue;
+   color: rgb(31, 5, 31); 
+   margin-left: 30px;
+   margin-right: 20px;
+   margin-top: 10px;
+   padding: 10px;
+   display: inline-block;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+   text-align: center;
+}
+
+.project p {
+    color: rgb(31, 5, 31);
+}
+
+.project-img {
+    width: 250px;
+    height: 200px;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    float: right;
+    box-shadow: 0 3px 6px -2px #ccc;
+}
+
 header {
     text-align: center;
     padding-bottom: 10px;
