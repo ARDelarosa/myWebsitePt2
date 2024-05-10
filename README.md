@@ -4,3 +4,9 @@
 # Home page will be an introduction to who I am
 # About page will have what my interest and hobbies are.
 # Porfolio page will display the projects I have work on.
+
+# Here is the url to my current project board:
+# https://github.com/users/ARDelarosa/projects/2/views/1
+
+# Here is the link url that I was added to classmate's peronal organization website.
+# https://github.com/users/ARDelarosa/projects/2/views/1
