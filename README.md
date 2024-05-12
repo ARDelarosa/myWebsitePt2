@@ -10,3 +10,6 @@
 
 # Here is the link url that I was added to classmate's peronal organization website.
 # https://github.com/users/ARDelarosa/projects/2/views/1
+
+# My personal website part 2 will have added flexbox to the about and portfolio pages.
+# Also added @media specs and minor other css changes as well.

@@ -104,12 +104,14 @@ header {
     padding-bottom: 10px;
 }
 
+/* This affects the header's home, about, and portfolio links*/
 a {
     color: rgb(206, 207, 241);
     font-size:x-large;
     margin: 0 10px;
 }
 
+/* Affects the home page main block*/
 .center {
     display:block;
     margin-left: auto;
@@ -158,6 +160,7 @@ footer .instamedia-link {
     height: 50px;
 }
 
+/*Adding a media spec to accommodate screen sizes*/
 @media (min-width:1200px) {
     .media {
         flex-direction: column;
