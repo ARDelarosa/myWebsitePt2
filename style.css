@@ -1,7 +1,7 @@
 body {
     background-color: rgb(70, 67, 67); 
-    margin: 0px;
-    padding: 0;
+  margin: 0px;
+    padding: 0;  
 }
 
 h1 {
@@ -13,6 +13,41 @@ h1 {
     padding: 20px;
     color: azure;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.about-flexbox {
+    display: flex;
+    position: relative;
+}
+
+.about-box {
+    display: flex;
+    border: 4px groove rgb(35, 23, 36);
+    width: 70%;
+    margin-left: 18em;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.about-par {
+    margin: 10px;
+}
+
+.header-align {
+    text-align: center;
+    padding: 1em;
+}   
+
+.about-fit {
+    width: 35vw;
+}
+
+.about-games {
+    width: 70vw;
+}
+
+.about-hike {
+    width: 17vw;
 }
 
 .project-header {
@@ -58,23 +93,6 @@ h1 {
 header {
     text-align: center;
     padding-bottom: 10px;
-}
-
-.header-align {
-    text-align: left;
-}
-
-.text-border:nth-of-type(2n + 1) > img {
-    float: right;
-    margin: 0 10px 10px 10px;
-}
-
-.gaming {
-    width: 250px;
-}
-
-.hiking {
-    width: 250px;
 }
 
 a {
