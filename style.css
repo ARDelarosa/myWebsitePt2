@@ -141,6 +141,10 @@ p {
     text-align: left;
 }
 
+label {
+    display: flex;
+}
+
 footer {
     background-color: rgb(77, 43, 77);
     padding-top: 20px;
