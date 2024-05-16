@@ -13,3 +13,5 @@
 
 # My personal website part 2 will have added flexbox to the about and portfolio pages.
 # Also added @media specs and minor other css changes as well.
+
+# Added at contact page with lables, inputs, submit button.

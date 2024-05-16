@@ -8,7 +8,7 @@
     <script defer src="javascript.js"></script>
 </head>
 <body>
-    <body class="media">
+    <body>
         <header>
             <h1>Andrew DeLaRosa</h1>
             <section id="hlinks">
@@ -24,12 +24,12 @@
             <form action="./success.html" method="get">
                 <section>
                     <label class="labels">Name:
-                        <input type="text" name="client"/>
+                        <input type="text" name="client" required/>
                     </label>
                 </section>
                 <section>
-                    <label>Email:
-                        <input type="text" name="email"/>
+                    <label for="email">Email:
+                        <input type="email" name="email" required/>
                     </label>
                 </section>
 
