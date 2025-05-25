@@ -15,12 +15,19 @@ h1 {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
+/* Make the nav full-width */
+nav {
+  width: 100%;
+}
+
+/* Reset list styling and center its items */
 .nav-list {
   list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 1em;
+  margin: 0;      /* remove default ul margin */
+  padding: 0;     /* remove default ul padding */
+  display: flex;  /* lay out the li’s in a row */
+  justify-content: center; /* center them horizontally */
+  gap: 1em;       /* space between links */
 }
 
 .nav-list a {
